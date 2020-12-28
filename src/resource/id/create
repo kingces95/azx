@@ -5,7 +5,7 @@ source /dev/stdin < <(cli::import azx .dir)
 help() (
 util::unindent << EOF
     Command
-        app resource id create : Create a resource id.
+        ${CLI_PATH} : Create a resource id.
 
     Resource Id Arguments
         --resource-group     [Required] : Name of resource group.

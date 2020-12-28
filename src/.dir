@@ -5,7 +5,7 @@ source $(cli loader)
 help() {
 util::unindent << EOF
     Command
-        azx
+        ${CLI_PATH}
 
     Global Arguments
         --help -h               : Show this message and exit.
