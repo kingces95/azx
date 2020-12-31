@@ -4,7 +4,7 @@ source $(cli loader)
 help() (
 util::unindent << EOF
     Command
-        ${CLI_PATH} : Create a resource group.
+        ${CLI_COMMAND} : Create a resource group.
 
     Arguments
         --name                  : Name of resource group.

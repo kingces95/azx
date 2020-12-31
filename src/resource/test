@@ -5,7 +5,7 @@ source /dev/stdin < <(cli::import azx .dir)
 help() (
 util::unindent << EOF
     Command
-        ${CLI_PATH} : Test if a query of a resource satisfies a JMESPath query.
+        ${CLI_COMMAND} : Test if a query of a resource satisfies a JMESPath query.
 
     Resource Id Arguments
         --id                    : Resource IDs. If provided, no other
