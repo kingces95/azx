@@ -31,4 +31,4 @@ main() {
     echo ${id}
 }
 
-cli::load "$@"
+cli::main "$@"
