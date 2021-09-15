@@ -5,7 +5,7 @@ source /dev/stdin < <(cli::import azx .dir)
 help() (
 util::unindent << EOF
     Command
-        ${CLI_COMMAND} : Wait until a query of a resource satisfies a JMESPath query.
+        ${CLI_COMMAND[@]} : Wait until a query of a resource satisfies a JMESPath query.
 
     Resource Id Arguments
         --ids                   : Resource IDs. If provided, no other
