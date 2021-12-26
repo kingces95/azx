@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 source $(cli loader ---exports)
-source /dev/stdin < <(cli::import azx .dir)
+source /dev/stdin < <(cli::source azx .dir)
 
 help() (
 util::unindent << EOF
